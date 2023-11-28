@@ -42,7 +42,7 @@ terraform apply
 
 Terraform will create virtual machines, a hosts.txt file with machine addresses, and execute playbook.yml and master-forward.yml to configure the nodes
 
-3. Connect to the master node, run the [flannel.sh](https://github.com/dimanbanan/installing-kubeadm/blob/edit-readme/files/flannel.sh) script to configure network interfaces. After that, copy the contents of the init.output.txt file and paste it into the join.yml file on the host machine. Execute [join.yml](https://github.com/dimanbanan/installing-kubeadm/blob/edit-readme/join.yml).
+3. Connect to the master node, run the [flannel.sh](https://github.com/dimanbanan/installing-kubeadm/blob/edit-readme/files/flannel.sh) script to configure network plugin. After that, copy the contents of the init.output.txt file and paste it into the join.yml file on the host machine. Execute [join.yml](https://github.com/dimanbanan/installing-kubeadm/blob/edit-readme/join.yml).
 
 ```
 ansible-playbook -i inventory/hosts.txt join.yml
