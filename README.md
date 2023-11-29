@@ -1,4 +1,4 @@
-# Installing kubeadm cluster using terrafrom and ansible on Yandex Cloud
+# Installing kubeadm cluster using terrafrom and ansible on Yandex Cloud with Ubuntu 20.04
 
 ### This project provides an automated way to deploy a Kubernetes cluster on Yandex Cloud using Terraform and Ansible tools.
 
